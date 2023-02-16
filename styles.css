@@ -1,0 +1,37 @@
+nav{
+    background-color: black;
+    height: 40px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 18px;
+    opacity: 0.85;
+}
+
+body{
+    margin: 0px;
+}
+.mainbody{
+    margin:60px 0px;
+}
+
+nav>div{
+   color: white;
+   margin: 2px;
+   font-size: 14px;
+}
+nav>div:hover{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* .fa{
+    color: black;
+    background-color: white;
+    font-size: 25px !important;
+} */
